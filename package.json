@@ -1,6 +1,6 @@
 {
   "name": "feathers-swift",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Swift Object Store Service for Feathers.js",
   "main": "lib/index.js",
   "scripts": {
@@ -17,10 +17,25 @@
     "object",
     "store"
   ],
-  "author": "Simon Schilling",
+  "author": {
+    "name": "Simon Schilling",
+    "email": "simon@schllng.de"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/simonschllng/feathers-swift/issues"
   },
-  "homepage": "https://github.com/simonschllng/feathers-swift#readme"
+  "homepage": "https://github.com/simonschllng/feathers-swift#readme",
+  "peerDependencies": {
+    "openstack-swift-client": "^1.2.4"
+  },
+  "dependencies": {
+    "concat-stream": "^1.6.2",
+    "crypto": "^1.0.1",
+    "dauria": "^2.0.0",
+    "debug": "^3.1.0",
+    "from2": "^2.3.0",
+    "mime-types": "^2.1.18",
+    "path": "^0.12.7"
+  }
 }
