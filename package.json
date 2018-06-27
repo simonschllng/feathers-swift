@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/simonschllng/feathers-swift#readme",
   "peerDependencies": {
-    "openstack-swift-client": "^1.2.4"
+    "openstack-swift-client": "^2.0.0"
   },
   "dependencies": {
     "concat-stream": "^1.6.2",
